@@ -6,33 +6,33 @@
 
 ## 🌟 Features
 
-- 🔐 **User Authentication** – Sign up, log in, and manage sessions
-- 📝 **Advice Posts** – Create, edit, delete advice entries
-- 💬 **Interaction** – Like and comment on posts
-- 🔍 **Search & Filter** – Browse advice by keyword or category
-- 📱 **Responsive Design** – Works seamlessly on mobile and desktop
-- 🌈 **Light/Dark Mode** *(optional)*
+-  **User Authentication** – Sign up, log in, and manage sessions
+-  **Advice Posts** – Create, edit, delete advice entries
+-  **Interaction** – Like and comment on posts
+-  **Search & Filter** – Browse advice by keyword or category
+-  **Responsive Design** – Works seamlessly on mobile and desktop
+-  **Light/Dark Mode** *(optional)*
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - npm or yarn
 
-### 📦 Installation
+###  Installation
 
-```bash
+```bas
 git clone https://github.com/yourusername/consiglio-app.git
 cd consiglio-app
 npm install
 ```
 
-### ▶️ Running the App Locally
+###  Running the App Locally
 
 ```bash
 npm start
@@ -42,7 +42,7 @@ The app will run at `http://localhost:3000`.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 consiglio-app/
@@ -59,7 +59,7 @@ consiglio-app/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the tests using:
 
@@ -71,7 +71,7 @@ Supports unit and integration testing using your preferred testing library (e.g.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! If you'd like to contribute:
 
@@ -83,7 +83,7 @@ Pull requests are welcome! If you'd like to contribute:
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
@@ -91,4 +91,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Jack] – contributions are welcome!
+Made by [Jack] – contributions are welcome!
