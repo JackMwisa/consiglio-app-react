@@ -1,4 +1,4 @@
-# 🧠 Consiglio App
+# Consiglio App
 
 **Consiglio App** is a web application designed to help users manage and share advice, recommendations, and suggestions within a supportive community.
 
