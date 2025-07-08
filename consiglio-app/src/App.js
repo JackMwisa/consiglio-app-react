@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import AdviceButton from './components/AdviceButton';
+import AdviceList from './components/AdviceList';
+import { appStyles } from './styles';
+
+const suggestions = [
+  "Bere di più",
+  "Fare esercizio",
+  "Dormire almeno 8 ore",
+  "Leggere un libro",
+  "Pianificare un viaggio",
+  "Mangiare sano"
+];
 
 function App() {
+  const [shownAdvices, setShownAdvices] = useState([]);
+
+  const handleShowAdvice = () => {
+    const random = suggestions[Math.floor(Math.random() * suggestions.length)];
+    if (shownAdvices.includes(random)) {
+      alert(`${random} è già nella lista`);
+    } else {
+      setShownAdvices([...shownAdvices, random]);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyles.container}>
+      <h1>Consiglio del giorno</h1>
+      <AdviceButton onClick={handleShowAdvice} />
+      <AdviceList advices={shownAdvices} />
     </div>
   );
 }
